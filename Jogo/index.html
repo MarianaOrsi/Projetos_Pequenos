@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+
+    <div class="container">
+        <div class="col-md-12"></div>
+        <div class="description">
+            <h1 class="title">JOGO DA FORCA</h1>
+            <div class="line"></div>
+            <p class="subtitle">Tente adivinhar qual é a palavra oculta</p>
+        </div>
+        <div class="game">
+            <div id="hangman">
+                <div id="trunks">
+                    <div class="trunk-1"></div>
+                    <div class="trunk-2"></div>
+                    <div class="trunk-3"></div>
+                    <div class="rope">
+                        <div class="top-rope"></div>
+                        <div class="middle-rope"></div>
+                        <div class="bottom-rope"></div>
+                    </div>
+                </div>
+                <div id="person">
+                    <div class="eyes eye-1">x</div>
+                    <div class="eyes eye-2">x</div>
+                    <div class="head hide"></div>
+                    <div class="person-body hide"></div>
+                    <div class="right-arm hide"></div>
+                    <div class="left-arm hide"></div>
+                    <div class="right-leg hide"></div>
+                    <div class="left-leg hide"></div>
+                </div>
+            </div>
+        </div>
+        <div class="panelShow">
+            <h3 id="category"></h3>
+            <div id="display">
+                <div class="dashes"></div>
+                <div class="wrongLetters"></div>
+            </div>
+            <div id="keyPressed">Precione alguma tecla</div>
+            <button class="buttonNewGame" onclick="iniciaJogo()"> * NOVO JOGO * </button>
+            <p class="subtitle">Clique em "novo jogo" para escolher outra categoria</p>
+        </div>
+    </div>
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+</body>
+
+</html>
