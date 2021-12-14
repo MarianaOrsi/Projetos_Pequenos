@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #00aced;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.caixa {
+    width: 450px;
+    height: 550px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.lista_atividades {
+    margin-top: 10px;
+    margin-left: 37px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    background-color: #00aced;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.input {
+    width: 320px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+}
+
+.erro {
+    color: #ff0000;
+    text-align: center;
+    display: none;
+}
+
+.atividade {
+    width: 350px;
+    background-color: rgb(216, 215, 215);
+    font-family: Verdana, sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 3px;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tags */
+
+p {
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+/* Botões */
+
+.botao_adc {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.botao_del_todos {
+    width: 380px;
+    height: 50px;
+    background-color: #13293D;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.botao_del{
+    background-color:#13293D;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+/* Paletas */ 
+.paletas_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.paleta {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+
+#paleta1 {
+    background-color: #00aced;
+}
+
+#paleta2 {
+    background-color: #232323;
+}
+
+#paleta3 {
+    background-color: #7d1c8a;
+}
