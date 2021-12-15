@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>INFO FILMES</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+</head>
+
+<body background="./img/imgFundo.jpg">
+    <div class="quadro">
+        <div class="container container_app">
+            <div>
+                <img class="nomeApp" src="https://fontmeme.com/permalink/210215/69fdb72357e268d30ae51b242352b2bf.png">
+                <div>
+                    <p class="descricaoApp1">
+                        O MAIOR e MAIS conhecido site para buscar informações sobre filmes e séries.
+                    </p>
+                    <p class="descricaoApp2">
+                        No INFO FILMES, você tem acesso a uma ficha de informações sobre filmes e séries.
+                        Contendo cada detalhe que vai te ajudar a escolher o melhor filme para aproveitar
+                        com seus amigos e familia.
+                    </p>
+                </div>
+                <div class="buscar">
+                    <p id="mensagemErro" class="msgErro"></p>
+                    <div class="input_div">
+                        <input class="input" type="text" placeholder="Digite o nome de um filme">
+                    </div>
+                    <button id="botao_buscar" class="buscarBt">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <div class="informacoes_parte1">
+                    <img class="poster" src="./img/default_image.png">
+                    <h1 id="titulo" class="titulo"></h1>
+                    <p id="sinopse" class="sinopse"></p>
+                </div>
+                <div class="informacoes_parte2">
+                    <div class="detalhes">
+                        <p id="ano" class=""></p>
+                        <p id="duracao" class=""></p>
+                        <p class="valorAvaliacao"></p>
+                    </div>
+                    <p id="genero" class="nome"></p>
+                    <p id="atores" class="nome"></p>
+                    <p id="diretor" class="nome"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
