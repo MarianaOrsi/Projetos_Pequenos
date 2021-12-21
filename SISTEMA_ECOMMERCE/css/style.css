@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232f3e;
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 130px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.quadro {
+    background: white;
+    width: 1300px;
+    height: 670px;
+    margin: 35px;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.container {
+    background: white;
+    margin: 25px;
+    opacity: 0.9;
+}
+
+.secao{
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #232f3e;
+}
+
+.numSecao {
+    background-color: #ff9900;
+    color: #232f3e;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    /*text-shadow: 0 1px 0 rgba(255,255,255,0.2);*/
+    border-radius: 100%;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.buscarBt {
+    width: 380px;
+    height: 50px;
+    background-color: #ff9900;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #232f3e;
+    margin: 1%;    
+}
+
+.msgErro {
+    color: red;
+}
+
+.submeter{
+    text-align: center;
+    justify-content: center;
+}

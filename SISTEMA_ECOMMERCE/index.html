@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title> JS E-commerce</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+</head>
+
+<body>
+    <form name="cadastro">
+        <div class="quadro">
+            <div class="logo">
+                <img src="./img/logo.png">
+            </div>
+            <div class="container">
+                <div class="dados_pesoais">
+                    <div class="secao"><span class="numSecao">1</span> Dados Pessoais </div>
+                    <div class="inputs">
+                        <input class="input" type="text" name="nome" placeholder="Nome Sobrenome">
+                        <input class="input" type="text" name="celular" placeholder="Celular (XX) X XXXX-XXXX">
+                        <input class="input" type="text" name="cpf" placeholder="CPF XXX.XXX.XXX-XX">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="perfil">
+                    <div class="secao"><span class="numSecao">2</span> Login </div>
+                    <div class="inputs">
+                        <input class="input" type="text" name="email" placeholder="Email">
+                        <input class="input" type="password" name="senha" placeholder="Senha">
+                        <input class="input" type="password" name="confirmaSenha" placeholder="Confirmar Senha">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="endereco">
+                    <div class="secao"><span class="numSecao">3</span> Cartão </div>
+                    <div class="inputs">
+                        <input class="input" type="text" name="numCartao" placeholder="Numero Cartão">
+                        <input class="input" type="text" name="codigoSeg" placeholder="Codigo de Segurança">
+                        <input class="input" type="text" name="dataValidade" placeholder="Data de validade ANO/MES/DIA">
+                    </div>
+                </div>
+            </div>
+            <div class="submeter">
+                <p id="mensagemErro" class="msgErro"></p>
+                <button id="botao_buscar" class="buscarBt" type="submit"> SALVAR DADOS </button>
+            </div>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>
