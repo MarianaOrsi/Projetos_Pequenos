@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3df49;
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 130px;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #232f3e;
+}
+
+.quadro {
+    background: #fff;
+    width: 1000px;
+    height: 570px;
+    margin: 35px;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.container {
+    background: #fff;
+    margin: 25px;
+    opacity: 0.9;
+}
+
+.secao{
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #232f3e;
+}
+
+.numSecao {
+    background-color: #ff9900;
+    color: #232f3e;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 100%;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.input:focus, .input select:focus {
+    background: #d6eef1;
+}
+
+.buscarBt {
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #fff;
+    margin: 3%;  
+    cursor: pointer; 
+}
+
+.buscarBt:hover {
+    background: #d6eef1;
+    color: #232f3e;
+    box-shadow: inset 5px 5px 4px rgba(0, 0, 0, 0.335);
+    text-shadow: none;
+    cursor: pointer;
+   }
+
+#botao_buscar {
+    background-color: #6A5ACD;
+
+}
+
+#botao_limpar {
+    background-color: #E61D11;
+
+}
+
+#botao_salvar {
+    background-color: #ff9900;
+}
+
+.msgErro {
+    color: #ff0000;
+}
+
+.submeter{
+    text-align: center;
+    justify-content: center;
+}
