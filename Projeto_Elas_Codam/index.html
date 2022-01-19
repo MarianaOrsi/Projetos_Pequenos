@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Controle de Gastos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <main>
+
+        <section class="secaoInsercaoInformacoes">
+            <h1>Controle de Gastos <img src="./img/money_pig_icon.svg" alt="Icone de um cofrinho de porquinho"></h1>
+            <p class="trespontos">...</p>
+
+            <div class="formularioEntradaOrcamento">
+                <h2>Total Orçamento</h2>
+                <input type="text">
+                <button>Calcular</button>
+            </div>
+
+            <div class="formularioEntradaDespesa">
+                <h2>Nome despesa</h2>
+                <input type="text" class="formularioEntradaDespesa__nome">
+
+                <h2>Valor despesa</h2>
+                <input type="number" class="formularioEntradaDespesa__valor">
+
+                <button>Adicionar despesa</button>
+            </div>
+
+            <div class="containerDespesas">
+                <div class="containerDespesas__cabecalho">
+                    <p class="tituloDespesa">Título Despesa</p>
+                    <p>Valor Despesa</p>
+                </div>
+                <ul class="containerDespesas__lista">
+                </ul>
+            </div>
+        </section>
+
+        <section class="secaoImpressaoResultados">
+            <div class="secaoImpressaoResultados__orcamento">
+                <h3>Orçamento</h3>
+                <p>+ R$ 0</p>
+            </div>
+            <div class="secaoImpressaoResultados__despesas">
+                <h3>Despesas</h3>
+                <p>- R$ 0</p>
+            </div>
+            <div class="secaoImpressaoResultados__saldo">
+                <h3>Saldo</h3>
+                <p>R$ 0</p>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
