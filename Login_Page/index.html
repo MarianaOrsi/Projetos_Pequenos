@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0820dcb66.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Login Page</h1>
+    </header>
+
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="exemplo@gmail.com">
+
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="********">
+                    <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+            </section>
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha?</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com:</span>
+
+                <aside>
+                    <a href="https://www.google.com/intl/pt/gmail/about/#inbox" target="_blank"><i class="fab fa-google google"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in linkedin"></i></a>
+                    <a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1" target="_blank"><i class="fab fa-facebook-f facebook"></i></a>
+                </aside>
+            </section>
+
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta? <a href="./cadastro/index.html" target="_blank">Cadastre-se</a></span>
+                <span>&copy; 2022 LoginPages.com</span>
+            </footer>
+        </form>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e0820dcb66.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Página de Cadastro</h1>
+    </header>
+
+    <main>
+        <form>
+            <section class="inputs-container">
+                <h4>Nome:</h4>
+                <input type="text" placeholder="Nome completo">
+
+                <h4>E-mail:</h4>
+                
+                <div class="password-container">
+                    <input type="email" id="field-password" class="field-password" placeholder="exemplo@gmail.com">
+                </div>
+
+                <h4>Senha:</h4>
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="********">
+                    <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+            </section>
+
+            <button id="btn-login">Cadastre-se</button>
+
+            <footer>
+                <hr>
+                <span>&copy; 2022 LoginPages.com</span>
+            </footer>
+        </form>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
