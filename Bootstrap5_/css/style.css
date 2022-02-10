@@ -361,4 +361,5 @@
 
 #back-to-top:hover {
   background-color: #111;
+  transition: 0.2s ease-out;
 }
